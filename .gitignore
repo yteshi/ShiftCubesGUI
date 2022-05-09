@@ -1,6 +1,15 @@
+# Directories
+/tests/
 /py37gui/
 /py310gui/
 /py310gui-win/
-/__pycache__/
+__pycache__
+
+# Files
+/gencode/*.txt
+.DS_Store
 .python-version
+icon.ico
+icon.png
+readme.html
 
