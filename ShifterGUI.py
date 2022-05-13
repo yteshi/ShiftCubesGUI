@@ -377,5 +377,6 @@ class ShifterGUI(tk.Tk):
 if __name__ == '__main__':
 	from CubeColor import CubeColor
 	from Cube import Cube
-	root = ShifterGUI(Cube([CubeColor.WHITE, CubeColor.BLUE, CubeColor.RED, CubeColor.YELLOW]))
+	# root = ShifterGUI(Cube([CubeColor.WHITE, CubeColor.BLUE, CubeColor.RED, CubeColor.YELLOW]))
+	root = ShifterGUI(Cube([CubeColor.WHITE, CubeColor.BLACK, CubeColor.MAGENDA, CubeColor.GREEN]))
 	root.mainloop()
